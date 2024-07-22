@@ -1,4 +1,4 @@
-import {User} from "../../modules/user"
+import {User} from "../../models/user"
 import {Request, Response} from "express"
 
 const register = async  (req:Request, res: Response)=>{
